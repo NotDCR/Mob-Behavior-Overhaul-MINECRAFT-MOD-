@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[60,)"
+license="MIT"
+
+[[mods]]
+modId="animalbehaviormod"
+version="1.0.0"
+displayName="Animal Behavior Mod"
+description='''
+Modifica o comportamento de animais no Minecraft:
+- Lhamas domesticadas não seguem mais viajantes
+- Axolotes com nametag ou capturados não atacam peixes
+- Raposas domesticadas não atacam galinhas ou outros animais
+'''
+authors="Seu Nome"
+
+[[dependencies.animalbehaviormod]]
+modId="forge"
+mandatory=true
+versionRange="[60,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.animalbehaviormod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.10]"
+ordering="NONE"
+side="BOTH"
